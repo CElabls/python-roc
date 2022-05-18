@@ -9,6 +9,7 @@
 # Usage
 
 ## From predictions
+
 ```python
 import numpy as np
 from python_roc import roc_from_predictions
@@ -20,6 +21,7 @@ roc_from_predictions(y_score, y)
 ```
 
 ## From compiled Keras model
+
 ```python
 import numpy as np
 from python_roc import roc_from_keras_model
@@ -29,3 +31,7 @@ y = np.array([[1, 0], [0, 1]])
 
 roc_from_keras_model(model, x, y)
 ```
+
+# Examples
+
+![](./assets/roc-92.png)
