@@ -4,7 +4,7 @@
 
 `pip install python-roc`
 
-> This package is build using `poetry`, so you can use it for installation.
+> This package is built using `poetry`, so you can use it for installation.
 
 # Usage
 
